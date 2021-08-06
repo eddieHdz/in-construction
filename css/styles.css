@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+body {
+  background-color: #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #1E1E1E;
+}
+
+.container #logo {
+  width: 18rem;
+  height: 5rem;
+}
+.container nav ul {
+  margin: 2rem 0rem 2rem 0rem;
+}
+.container nav ul i {
+  font-size: 1.2rem;
+  margin-top: 1px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.container nav ul li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.container section #informacion {
+  margin-top: 2rem;
+}
+.container section h2 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.container section h3 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+.container section #datos {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.container section #datos iframe {
+  width: 800px;
+  height: 300px;
+}
+.container footer {
+  margin-top: 3rem;
+}
+.container footer h3 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.container footer #redes ul {
+  margin-top: 0.8rem;
+}
+.container footer #redes ul #insta {
+  margin-left: 0.5rem;
+}
+.container footer #redes li {
+  display: inline;
+  list-style: none;
+  font-family: "Crimson Text", serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #000;
+}
+
+#facelink:hover {
+  color: #1773EA;
+}
+
+#instalink:hover {
+  color: #F783AC;
+}
+
+@media (max-width: 768px) {
+  footer #derechos {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 576px) {
+  #derechosup {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  #redes {
+    display: flex;
+    justify-content: center;
+  }
+  #redes ul {
+    margin-right: 2.2rem;
+  }
+  #redes #instalink {
+    color: #F783AC;
+  }
+  #redes #facelink {
+    color: #1773EA;
+  }
+}
+@media (max-width: 576px) {
+  #constructors {
+    width: 22rem;
+    height: 15rem;
+  }
+}
+@media (min-width: 577px) {
+  #constructors {
+    width: 38rem;
+    height: 24rem;
+  }
+}
+@media (min-width: 768px) {
+  #constructors {
+    width: 44rem;
+    height: 27rem;
+  }
+}
+@media (max-width: 576px) {
+  #navegacion {
+    display: flex;
+    justify-content: start;
+  }
+  #navegacion li {
+    font-size: 0.7rem;
+  }
+  #navegacion i {
+    font-size: 0.8rem;
+    margin: 0px 5px 0px 5px;
+  }
+}
+@media (min-width: 577px) {
+  #navegacion {
+    display: flex;
+    justify-content: space-between;
+  }
+  #navegacion li {
+    font-size: 0.9rem;
+  }
+  #navegacion i {
+    font-size: 0.9rem;
+    margin: 0px 5px 0px 5px;
+  }
+}
+@media (min-width: 768px) {
+  #navegacion {
+    display: flex;
+    justify-content: space-between;
+  }
+  #navegacion li {
+    font-size: 1rem;
+  }
+  #navegacion i {
+    font-size: 1.2rem;
+    margin: 0px 10px 0px 10px;
+  }
+}
+@media (max-width: 576px) {
+  #contlogo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

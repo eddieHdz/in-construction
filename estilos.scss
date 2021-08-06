@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+$fuente_roboto: 'Roboto', sans-serif;
+$fuente_codigo_fuente: 'Source Code Pro', monospace;
+$fuente_crimson: 'Crimson Text', serif;
+$fuente_spartan: 'Spartan', sans-serif;
+
+body{
+    background-color: #FFF;
+}
+a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+.container{
+        #logo{
+            width: 18rem;
+            height: 5rem;
+        }
+        nav{
+            ul{
+                margin: 2rem 0rem 2rem 0rem;
+                i{
+                    font-size: 1.2rem;
+                    margin-top: 1px;
+                    margin-right: 10px;
+                    margin-left: 10px;
+                }
+                li{
+                    list-style: none;
+                    font-family: $fuente_roboto;
+                    font-weight: bold;
+                    
+                }
+            }
+        }
+        section{
+            #informacion{
+                margin-top: 2rem;
+            }
+            h2{
+                font-family: $fuente_codigo_fuente;
+                font-weight: 400;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            h3{
+                font-family: $fuente_codigo_fuente;
+                font-weight: 300;
+                font-size: 1rem;
+                text-align: center;
+            }
+            #datos{
+                margin-top: 3rem;
+                margin-bottom: 2rem;
+                iframe{
+                    width: 800px;
+                    height: 300px;
+                }                
+            }
+        } 
+        footer{
+            margin-top: 3rem;
+            h3{
+                font-family: $fuente_spartan;
+                font-weight: 400;
+                font-size: 1.2rem;
+                margin-top: 1rem;
+            }
+            #redes{ 
+                ul{
+                    margin-top: 0.8rem;
+                    #insta{
+                        margin-left: 0.5rem;
+                    }
+                }                   
+                li{
+                    display: inline;
+                    list-style: none;
+                    font-family: $fuente_crimson;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    color: #000;
+                }
+            }
+        }   
+}
+
+#facelink:hover{
+    color: #1773EA;
+}
+
+#instalink:hover{
+    color: #F783AC;
+}
+
+@media (max-width: 768px) {
+    footer{
+        #derechos{
+            font-size: 0.8rem;
+        }
+    }
+  }
+
+@media (max-width: 576px){
+    #derechosup{
+        display: flex;
+        justify-content: center;
+    }
+}  
+
+@media (max-width: 576px){
+    #redes{
+        display: flex;
+        justify-content: center;   
+        ul{
+            margin-right: 2.2rem;
+        }
+        #instalink{
+            color: #F783AC;
+        }
+        #facelink{
+            color: #1773EA;
+        }   
+    }
+}
+
+@media (max-width: 576px){
+    #constructors{
+        width: 22rem;
+        height: 15rem;
+    }
+}
+
+@media (min-width: 577px){    
+    #constructors{
+        width: 38rem;
+        height: 24rem;
+    }
+}
+
+@media (min-width: 768px){    
+    #constructors{
+        width: 44rem;
+        height: 27rem;
+    }
+}
+
+@media (max-width: 576px){
+    #navegacion{        
+        display: flex;
+        justify-content: start;
+        li{
+            font-size: 0.7rem;
+        }
+        i{
+            font-size: 0.8rem;
+            margin: 0px 5px 0px 5px;
+        }
+    }
+}
+
+@media (min-width: 577px){
+    #navegacion{        
+        display: flex;
+        justify-content: space-between;
+        li{
+            font-size: 0.9rem;
+        }
+        i{
+            font-size: 0.9rem;
+            margin: 0px 5px 0px 5px;
+        }
+    }
+}
+
+@media (min-width: 768px){
+    #navegacion{        
+        display: flex;
+        justify-content: space-between;
+        li{
+            font-size: 1rem;
+        }
+        i{
+            font-size: 1.2rem;
+            margin: 0px 10px 0px 10px;
+        }
+    }
+}
+
+@media (max-width: 576px){
+    #contlogo{
+        display: flex;
+        justify-content: center;
+    }
+}
